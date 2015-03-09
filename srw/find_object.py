@@ -4,7 +4,7 @@ import argparse
 import numpy as np
 import IPython
 
-from .logging import get_logger
+from .logs import get_logger
 from .constants import pixel_scale
 from .lightcurve import Lightcurve
 

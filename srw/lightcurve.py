@@ -1,7 +1,7 @@
 from astropy.io import fits
 import numpy as np
 
-from .logging import get_logger
+from .logs import get_logger
 
 
 class Lightcurve(object):

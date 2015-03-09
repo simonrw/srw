@@ -1,5 +1,6 @@
 from astropy.io import fits
 from astropy import units as u
+import numpy as np
 
 from .logging import get_logger
 from .constants import pixel_scale

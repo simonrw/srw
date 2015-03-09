@@ -1,0 +1,17 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+astropy=1.0=np19py34_0
+ipython=3.0.0=py34_0
+numpy=1.9.2=py34_0
+openssl=1.0.1k=0
+pip=6.0.8=py34_0
+python=3.4.3=0
+readline=6.2=2
+setuptools=13.0.2=py34_0
+six=1.9.0=py34_0
+sqlite=3.8.4.1=0
+system=5.8=1
+tk=8.5.15=0
+xz=5.0.5=0
+zlib=1.2.8=0

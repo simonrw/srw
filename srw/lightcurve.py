@@ -1,0 +1,2 @@
+class Lightcurve(object):
+    pass

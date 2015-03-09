@@ -23,7 +23,7 @@ class Lightcurve(object):
 
         self = cls()
         imagelist_keys = set(['airmass'] + extra_imagelist_keys)
-        catalogue_keys = set([] + extra_catalogue_data)
+        catalogue_keys = set(['ra', 'dec'] + extra_catalogue_data)
 
         with fits.open(filename) as infile:
             self.mjd = infile['hjd'].section[index]

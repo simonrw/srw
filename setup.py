@@ -12,5 +12,10 @@ setup(
             'matplotlib',
             'six',
             ],
+        entry_points={
+            'console_scripts': [
+                'find_object.py = srw.find_object:main',
+                ],
+            },
         )
 

@@ -14,6 +14,13 @@ class Lightcurve(object):
     def compute_phase(self, period, epoch):
         self.phase = ((self.mjd - epoch) / period) % 1
 
+    def __repr__(self):
+        return "<Lightcurve obj_id={obj_id}>".format(
+            obj_id=self.obj_id)
+
+    def __str__(self):
+        return repr(self)
+
     @classmethod
     def from_file(cls, filename, obj_id):
         with fits.open(filename) as infile:

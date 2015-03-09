@@ -6,6 +6,8 @@ ipython=3.0.0=py34_0
 numpy=1.9.2=py34_0
 openssl=1.0.1k=0
 pip=6.0.8=py34_0
+py=1.4.26=py34_0
+pytest=2.6.4=py34_0
 python=3.4.3=0
 readline=6.2=2
 setuptools=13.0.2=py34_0

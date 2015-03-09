@@ -2,9 +2,11 @@
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
 astropy=1.0=np19py34_0
+autopep8=1.1=py34_0
 ipython=3.0.0=py34_0
 numpy=1.9.2=py34_0
 openssl=1.0.1k=0
+pep8=1.6.2=py34_0
 pip=6.0.8=py34_0
 py=1.4.26=py34_0
 pytest=2.6.4=py34_0

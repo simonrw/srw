@@ -8,6 +8,12 @@ class Lightcurve(object):
 
     logger = get_logger('Lightcurve')
 
+    def __init__(self):
+        self.phase = None
+
+    def compute_phase(self, period, epoch):
+        self.phase = ((self.mjd - epoch) / period) % 1
+
     @classmethod
     def from_file(cls, filename, obj_id):
         with fits.open(filename) as infile:

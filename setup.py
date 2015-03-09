@@ -6,5 +6,11 @@ setup(
         author_email='s.walker.2@warwick.ac.uk',
         version='0.0.1',
         packages=find_packages(),
+        install_requires=[
+            'numpy',
+            'astropy',
+            'matplotlib',
+            'six',
+            ],
         )
 

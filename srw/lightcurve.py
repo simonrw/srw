@@ -42,10 +42,12 @@ class Lightcurve(object):
             self.mjd = infile['hjd'].section[index]
             self.flux = infile['flux'].section[index]
             self.fluxerr = infile['fluxerr'].section[index]
+            self.ccdx = infile['ccdx'].section[index]
+            self.ccdy = infile['ccdy'].section[index]
             imagelist = infile['imagelist'].data
             catalogue = infile['catalogue'].data
 
-        all_keys = ['mjd', 'flux', 'fluxerr', ]
+        all_keys = ['mjd', 'flux', 'fluxerr', 'ccdx', 'ccdy']
 
         for key in imagelist_keys:
             try:

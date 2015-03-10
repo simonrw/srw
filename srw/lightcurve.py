@@ -60,7 +60,7 @@ class Lightcurve(object):
 
         for key in catalogue_keys:
             try:
-                setattr(self, key, catalogue[key])
+                setattr(self, key, catalogue[key][index])
             except KeyError:
                 self.logger.warning(
                     'Cannot find key {} in catalogue'.format(key))
